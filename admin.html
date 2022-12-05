@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portfolio</title>
+    <!-- Bootstrap-->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
+    <script src="https://kit.fontawesome.com/df30f050f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet"  href="css/admin.css">
+    
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;600&family=Racing+Sans+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container-fluid nav">
+        <a class="navbar-brand" href="Index.html"><img src="images/argprogricon.png" alt="logo" class="logo"></a>                          
+        <ul class="list-group list-group-horizontal ">               
+          <!-- BOTON QUE ABRE EL LOGIN -->
+          <li class="list-group-item"><i class="fa-solid fa-user fa-xl text-white" data-bs-toggle="modal" data-bs-target="#loginModal"></i></li>                   
+          <!-- FIN BOTON QUE ABRE EL LOGIN -->                    
+        </ul>            
+      </div>
+    </nav>
+  <!-- FIN NAVBAR -->
+
+    <!-- INICIO NAVBAR VERTICAL-->
+  <section class="panel">
+    <div class="row">
+      <div class="col-5">
+        <nav class="vertical" id="list-tab" role="tablist">
+          <div class="containerFoto">
+            <img class= "foto" src="images/icon.jfif" alt="perfil">
+          </div>
+          <h5 class="name">Miranda Ibarra Melina</h5>
+          <h6 class="profesion">Software Developer</h6>
+          <ul>
+            <li class="vertical">
+              <a class="list-group-item list-group-item-action active" id="list-redes-list" data-bs-toggle="list" href="#list-redes" role="tab" aria-controls="list-redes"><i class="fa-sharp fa-solid fa-share-nodes"></i>REDES</a>
+            </li>
+            <li class="vertical">
+              <a class="list-group-item list-group-item-action" id="list-banner-list" data-bs-toggle="list" href="#list-banner" role="tab" aria-controls="list-banner"><i class="fa-solid fa-image"></i>BANNER</a>
+            </li>
+            <li class="vertical">
+              <a class="list-group-item list-group-item-action" id="list-info-list" data-bs-toggle="list" href="#list-info" role="tab" aria-controls="list-info"><i class="fa-solid fa-info"></i>INFO</a>
+            </li>
+            <li class="vertical">
+              <a class="list-group-item list-group-item-action" id="list-sobremi-list" data-bs-toggle="list" href="#list-sobremi" role="tab" aria-controls="list-sobremi"><i class="fa-solid fa-align-left"></i>SOBRE MI</a>
+            </li>
+            <li class="vertical">
+              <a class="list-group-item list-group-item-action" id="list-experiencia-list" data-bs-toggle="list" href="#list-experiencia" role="tab" aria-controls="list-experiencia"><i class="fa-solid fa-briefcase"></i>EXPERIENCIA</a>
+            <li class="vertical">
+              <a class="list-group-item list-group-item-action" id="list-educacion-list" data-bs-toggle="list" href="#list-educacion" role="tab" aria-controls="list-educacion"><i class="fa-solid fa-user-graduate"></i>EDUCACIÓN</a>
+            </li>
+            <li class="vertical">
+              <a class="list-group-item list-group-item-action" id="list-skills-list" data-bs-toggle="list" href="#list-skills" role="tab" aria-controls="list-skills"><i class="fa-solid fa-gears"></i>SKILLS</a>
+            </li>
+            <li class="vertical">
+              <a class="list-group-item list-group-item-action" id="list-proyectos-list" data-bs-toggle="list" href="#list-proyectos" role="tab" aria-controls="list-proyectos"><i class="fa-solid fa-folder"></i>PROYECTOS</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    <!-- FIN NAVBAR VERTICAL-->
+
+    <!-- INICIO PANEL REDES -->
+      <div class="col-3 ">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="list-redes" role="tabpanel" aria-labelledby="list-redes-list">
+            <div class="container px-5">
+              <form>
+                <div class="my-3">
+                  <label for="linkedin" class="form-label">Linkedin</label>
+                  <input type="text" class="form-control" id="linkedin">
+
+                </div>
+                <button type="button" class="btn btn-success">Guardar</button>
+                <button type="button" class="btn btn-warning">Actualizar</button>
+                <button type="button" class="btn btn-danger">Eliminar</button>
+
+                <div class="my-3">
+                  <label for="github" class="form-label">GitHub</label>
+                  <input type="text" class="form-control" id="github">
+                </div>
+                <button type="button" class="btn btn-success">Guardar</button>
+                <button type="button" class="btn btn-warning">Actualizar</button>
+                <button type="button" class="btn btn-danger">Eliminar</button>
+
+                <div class="my-3">
+                  <label for="facebook" class="form-label">Facebook</label>
+                  <input type="text" class="form-control" id="facebook">
+                </div>
+                <button type="button" class="btn btn-success">Guardar</button>
+                <button type="button" class="btn btn-warning">Actualizar</button>
+                <button type="button" class="btn btn-danger">Eliminar</button>
+              </form>
+            </div>
+          </div>
+    <!-- FIN PANEL REDES -->
+
+    <!--INICIO PANEL BANNER-->
+          <div class="tab-pane fade" id="list-banner" role="tabpanel" aria-labelledby="list-banner-list-list"> 
+            <div class="container px-5">
+              <form>
+                <div class="my-3">
+                  <label for="banner" class="form-label">Banner</label>
+                  <input type="file" class="form-control" id="banner">
+                </div>
+                <button type="button" class="btn btn-success">Guardar</button>
+                <button type="button" class="btn btn-warning">Actualizar</button>
+                <button type="button" class="btn btn-danger">Eliminar</button>
+            </div>
+          </div>
+    <!--FIN PANEL BANNER-->
+
+    <!--INICIO PANEL INFO-->
+          <div class="tab-pane fade" id="list-info" role="tabpanel" aria-labelledby="list-info-list">
+            <div class="container px-5">
+              <form>
+                <div class="my-3">
+                  <label for="perfil" class="form-label">Foto</label>
+                  <input type="file" class="form-control" id="perfil">
+                </div>
+                <button type="button" class="btn btn-success">Guardar</button>
+                <button type="button" class="btn btn-warning">Actualizar</button>
+                <button type="button" class="btn btn-danger">Eliminar</button>
+                
+                <div class="my-3">
+                  <label for="nomyap" class="form-label">Nombre y apellido</label>
+                  <input type="text" class="form-control" id="nomyap">
+                </div>
+                <button type="button" class="btn btn-success">Guardar</button>
+                <button type="button" class="btn btn-warning">Actualizar</button>
+                <button type="button" class="btn btn-danger">Eliminar</button>
+
+                <div class="my-3">
+                  <label for="prof" class="form-label">Profesion</label>
+                  <input type="text" class="form-control" id="prof">
+                </div>
+                <button type="button" class="btn btn-success">Guardar</button>
+                <button type="button" class="btn btn-warning">Actualizar</button>
+                <button type="button" class="btn btn-danger">Eliminar</button>
+            </div>
+          </div>
+    <!-- FIN PANEL INFO -->
+
+    <!--INICIO PANEL SOBREMI -->
+          <div class="tab-pane fade" id="list-sobremi" role="tabpanel" aria-labelledby="list-sobremi-list">
+            <div class="container px-5">
+              <form>
+                <div class="my-3">
+                  <label for="nombre" class="form-label">Sobre mi</label>
+                    <textarea class="form-control" id="info" style="height: 100px">
+                    </textarea>
+                      
+                </div>
+                <button type="button" class="btn btn-success">Guardar</button>
+                <button type="button" class="btn btn-warning">Actualizar</button>
+                <button type="button" class="btn btn-danger">Eliminar</button>
+            </div>
+          </div>
+    <!--FIN PANEL SIBREMI-->
+
+    <!--INICIO PANEL EXPERIENCIA-->
+          <div class="tab-pane fade" id="list-experiencia" role="tabpanel" aria-labelledby="list-experiencia-list">
+            <div class="my-3">
+              <label for="cargo" class="form-label">Cargo</label>
+              <input type="text" class="form-control" id="cargo">
+            </div>
+            <button type="button" class="btn btn-success">Guardar</button>
+            <button type="button" class="btn btn-warning">Actualizar</button>
+            <button type="button" class="btn btn-danger">Eliminar</button>
+            
+            <div class="my-3">
+              <label for="lugar" class="form-label">Lugar</label>
+              <input type="text" class="form-control" id="lugar">
+
+            </div>
+            <button type="button" class="btn btn-success">Guardar</button>
+            <button type="button" class="btn btn-warning">Actualizar</button>
+            <button type="button" class="btn btn-danger">Eliminar</button>
+
+            <div class="my-3">
+              <label for="fechacom" class="form-label">Fecha de comienzo</label>
+              <input type="text" class="form-control" id="fechacom">
+            </div>
+            <button type="button" class="btn btn-success">Guardar</button>
+            <button type="button" class="btn btn-warning">Actualizar</button>
+            <button type="button" class="btn btn-danger">Eliminar</button>
+
+            <div class="my-3">
+              <label for="fechafin" class="form-label">Fecha de finalización</label>
+              <input type="text" class="form-control" id="fechafin">
+            </div>
+            <button type="button" class="btn btn-success">Guardar</button>
+            <button type="button" class="btn btn-warning">Actualizar</button>
+            <button type="button" class="btn btn-danger">Eliminar</button>
+
+            <div class="my-3">
+              <label for="tareas" class="form-label">Tareas realizadas</label>
+              <textarea class="form-control" id="tareas" style="height: 100px">
+              </textarea>
+            </div>
+            <div class="my-3 last">
+              <button type="button" class="btn btn-success">Guardar</button>
+              <button type="button" class="btn btn-warning">Actualizar</button>
+              <button type="button" class="btn btn-danger">Eliminar</button>
+            </div>
+            
+          </div>
+    <!--FIN PANEL EXPERIENCIA-->
+
+    <!--INICIO PANEL EDUCACION-->
+          <div class="tab-pane fade" id="list-educacion" role="tabpanel" aria-labelledby="list-educacion-list">
+            <div class="container px-5">
+              <form>
+                <div class="my-3">
+                  <label for="institucion" class="form-label">Institucion</label>
+                  <input type="text" class="form-control" id="institucion">
+
+                </div>
+                <button type="button" class="btn btn-success">Guardar</button>
+                <button type="button" class="btn btn-warning">Actualizar</button>
+                <button type="button" class="btn btn-danger">Eliminar</button>
+
+                <div class="my-3">
+                  <label for="carrera/curso" class="form-label">Carrera/curso</label>
+                  <input type="text" class="form-control" id="carrera/curso">
+                </div>
+                <button type="button" class="btn btn-success">Guardar</button>
+                <button type="button" class="btn btn-warning">Actualizar</button>
+                <button type="button" class="btn btn-danger">Eliminar</button>
+
+                <div class="my-3">
+                  <label for="fechacom" class="form-label">Fecha de comienzo</label>
+                  <input type="text" class="form-control" id="fechacom">
+                </div>
+                <button type="button" class="btn btn-success">Guardar</button>
+                <button type="button" class="btn btn-warning">Actualizar</button>
+                <button type="button" class="btn btn-danger">Eliminar</button>
+
+                <div class="my-3">
+                  <label for="fechafin" class="form-label">Fecha de finalización</label>
+                  <input type="text" class="form-control" id="fechafin">
+                </div>
+                <button type="button" class="btn btn-success">Guardar</button>
+                <button type="button" class="btn btn-warning">Actualizar</button>
+                <button type="button" class="btn btn-danger">Eliminar</button>
+
+                <div class="my-3">
+                  <label for="iconoI" class="form-label">Icono institución</label>
+                  <input type="file" class="form-control" id="iconoI">
+                </div>
+                <div class="my-3 last">
+                  <button type="button" class="btn btn-success">Guardar</button>
+                  <button type="button" class="btn btn-warning">Actualizar</button>
+                  <button type="button" class="btn btn-danger">Eliminar</button>
+                  
+                </div>
+                
+              </form>
+            </div>
+          </div>
+    <!--FIN PANEL EDUCACION-->
+
+    <!--INICIO PANEL SKILLS-->
+          <div class="tab-pane fade" id="list-skills" role="tabpanel" aria-labelledby="list-skills-list">
+            <div class="my-3">
+              <label for="skill" class="form-label">Skill</label>
+              <input type="text" class="form-control" id="skill">
+            </div>
+            <button type="button" class="btn btn-success">Guardar</button>
+            <button type="button" class="btn btn-warning">Actualizar</button>
+            <button type="button" class="btn btn-danger">Eliminar</button>
+
+            <div class="my-3">
+              <label for="porcentaje" class="form-label">Porcentaje</label>
+              <input type="text" class="form-control" id="porcentaje">
+            </div>
+            <button type="button" class="btn btn-success">Guardar</button>
+            <button type="button" class="btn btn-warning">Actualizar</button>
+            <button type="button" class="btn btn-danger">Eliminar</button>
+          </div>
+    <!--FIN PANEL SKILLS-->
+
+    <!--INICIO PANEL PROYECTOS-->
+          <div class="tab-pane fade" id="list-proyectos" role="tabpanel" aria-labelledby="list-proyectos-list">
+            <div class="my-3">
+              <label for="nom" class="form-label">Nombre del proyecto</label>
+              <input type="text" class="form-control" id="nom">
+            </div>
+            <button type="button" class="btn btn-success">Guardar</button>
+            <button type="button" class="btn btn-warning">Actualizar</button>
+            <button type="button" class="btn btn-danger">Eliminar</button>
+
+            <div class="my-3">
+              <label for="iconproyecto" class="form-label">Icono</label>
+              <input type="file" class="form-control" id="iconproyecto">
+            </div>
+            <button type="button" class="btn btn-success">Guardar</button>
+            <button type="button" class="btn btn-warning">Actualizar</button>
+            <button type="button" class="btn btn-danger">Eliminar</button>
+          
+            <div class="my-3">
+              <label for="repositorio" class="form-label">Link repositorio</label>
+              <input type="text" class="form-control" id="repositorio">
+            </div>
+            <button type="button" class="btn btn-success">Guardar</button>
+            <button type="button" class="btn btn-warning">Actualizar</button>
+            <button type="button" class="btn btn-danger">Eliminar</button>
+          </div>
+
+          
+    <!--FIN PANEL PROYECTOS-->
+    <!-- INICIO VENTANA LOGIN -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content justify-content-md-center">
+          <div class="modal-header align-self-center">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body align-self-center">
+            <form class="box">
+              <div class="boton align-self-center">
+              <button type="submit" class="boton">Salir</button>   
+              </div>        
+            </form>
+          </div>
+          <div class="modal-footer align-self-center">
+            <button type="submit" class="botons" data-bs-dismiss="modal">Cancelar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--FIN VENTANA LOGIN -->      
+        </div>
+      </div>
+    </div>
+  </section>   
+
+<footer id="contacto">
+        <div class="containerfoter">    
+        <div class="derechos" >
+        <p>Copyright &copy; 2022 Miranda Ibarra Melina. Todos Los <span>Derechos Reservados</span></p>
+        </div>
+</footer> 
+
+
+
+
+
+
+ <script src="js/bootstrap.min.js"></script>
+<script src="js/popper.min.js"></script>      
+
+   
+</body>
+</html>
