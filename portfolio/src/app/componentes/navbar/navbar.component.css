@@ -1,0 +1,40 @@
+/*COMIENZO NAVBAR*/
+.navbar .container-fluid{
+	background-color: #02000D;
+	position: fixed;
+	display: flex;
+	align-items: center;    
+    margin-bottom: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+    top: 0;
+	z-index: 1;
+}
+.logo{
+    width: 80px;
+    padding: 0px;
+}
+.list-group{
+	--bs-list-group-bg: transparent;
+}
+.list-group i{
+	color: #745EF3;
+	width: 30px;
+	transition:  0.5s ;
+}
+.fa-brands.fa-linkedin-in.fa-xl:hover{
+	color: #9722BF;
+	filter: saturate(500%);	
+	transform: scale(1.2);
+}
+.fa-brands.fa-github.fa-xl:hover{
+	color: #9722BF;
+	filter: saturate(500%);	
+	transform: scale(1.2);
+}
+.fa-brands.fa-facebook-f.fa-xl:hover{
+	color: #9722BF;
+	filter: saturate(500%);	
+	transform: scale(1.2);
+}
+/*FIN NAVBAR*/

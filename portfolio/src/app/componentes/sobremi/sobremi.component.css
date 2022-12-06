@@ -1,0 +1,27 @@
+/*COMIENZO SOBRE MI*/
+.sobreMi{
+	background: linear-gradient(black, #02000D);
+}
+.sMi{
+	color:#fff;
+	margin-top:50px;	
+	text-align: justify;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+.containerFoto{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;	
+}
+.foto{	
+	object-fit: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	box-shadow: 0 0px 26px 5px #2B2696;
+}
+/*FIN SOBRE MI*/

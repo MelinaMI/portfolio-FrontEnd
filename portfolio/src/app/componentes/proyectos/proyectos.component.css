@@ -1,0 +1,35 @@
+/*COMIENZO PROYECTOS*/
+.btn{
+	background-color:#745EF3;
+	border-radius: 30px;
+	align-content: center;
+	width: 250px;
+	color: #fff;
+	align-self: center;
+	font-weight: 600;
+	font-family: 'monserrat', sans-serif;
+}
+.btn:hover{
+	color: rgb(255, 255, 255) ;
+	box-shadow: 0 4px 18px #2B2696;
+	filter: saturate(100%);
+	background: #5F34E6;
+	border-color: #7D55FC;
+	letter-spacing: 2px;
+}
+.card-img-top{
+	width: 150px;
+	height: 150px;
+	align-content: center;
+}
+.card{
+	width: 300px;
+	margin-top: 80px;
+	border-radius: 15px;
+	margin-bottom: 15px;
+}
+.card:hover{
+	transform: scale(1.1);
+	box-shadow: 0 4px 18px #2B2696;
+}
+/*FIN PROYECTOS*/

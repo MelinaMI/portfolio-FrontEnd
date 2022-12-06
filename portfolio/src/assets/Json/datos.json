@@ -1,0 +1,144 @@
+{
+    "nombre": "Miranda Ibarra Melina",
+    "profesion": "Software Developer",
+    "login": "fa-solid fa-user-lock fa-xl text-white",
+    "sobremi":"Desarrolladora de software con título técnico en programación, actualmente cursando la carrera de ingeniería en informática. En busca de empleo que me ayude a crecer profesionalmente; me gusta estar capacitándome constantemente ya sea mediante cursos certificados como de manera autodidacta, aprendo rápidamente y tengo una gran capacidad de adaptabilidad, buen trabajo en equipo.",
+    "icono": "assets/imagenes/argprogricon.png",
+    "redes": [
+        {
+            "id": 0,
+            "url": "https://www.linkedin.com/in/mirandaibarramelina",
+            "icon": "fa-brands fa-linkedin-in fa-xl"
+        },
+        {
+            "id": 1,
+            "url": "https://github.com/MelinaMI",
+            "icon": "fa-brands fa-github fa-xl"
+        },
+        {
+            "id": 2,
+            "url": "https://www.facebook.com/",
+            "icon": "fa-brands fa-facebook-f fa-xl"
+        }
+    ],
+    
+    "educacion":[
+        {
+            "id": 0,
+            "logo": "/assets/imagenes/cuilogo.jpg",
+            "titulo": "Inglés",
+            "institucion": "Centro Universitario de Idiomas UBA",
+            "inicio": 2022,
+            "fin": 2022
+        },
+        {
+            "id": 1,
+            "logo": "/assets/imagenes/apicon.png",
+            "titulo": "FullStack Developer",
+            "institucion": "Argentina Programa",
+            "inicio": 2022,
+            "fin": 2023
+        },
+        {
+            "id": 2,
+            "logo": "/assets/imagenes/logounaj.jpg",
+            "titulo": "Ingeniería en Informática",
+            "institucion": "Universidad Nacional Arturo Jauretche",
+            "inicio": 2020,
+            "fin": "Actualidad"
+        },
+        {
+            "id": 3,
+            "logo": "/assets/imagenes/EESTN5icon.jpg",
+            "titulo": "Técnico en programación",
+            "institucion": "Escuela de Educación Secundaria Técnica 5",
+            "inicio": 2013,
+            "fin": 2019
+        }
+    ],
+
+    "experiencias":[
+        {
+            "id":0,
+            "imgPunto": "/assets/imagenes/rec.png",
+            "puesto": "Diseño",
+            "lugar": "MemirDesigns",
+            "inicio":2021,
+            "fin": 2022,
+            "descripcion": "Diseño de flyers, tarjetas, volantes,avisos y logos."
+        },
+        {
+            "id":1,
+            "imgPunto": "/assets/imagenes/rec.png",
+            "puesto": "Atencion al cliente y ayudante de cocina",
+            "lugar": "Caserito Para Vos",
+            "inicio": 2016,
+            "fin": 2020,
+            "descripcion": "Atención al cliente y toma de pedidos en local; Cortadora de fiambre; Bachera; Preparación de los insumos y limpieza del lugar; Empaquetado y entrega de producto.  "
+        },
+        {
+            "id":2,
+            "imgPunto": "/assets/imagenes/rec.png",
+            "puesto": "Desarrollador",
+            "lugar": "Escuela Secundaria Técnica 5",
+            "inicio": 2019,
+            "fin": 2019,
+            "descripcion": "Diseño y desarrollo de páginas web estáticas y dinámicas; Desarrollo de software para domótica y robótica en Arduino; Desarrollo de aplicaciones; Instalación y mantenimiento de software; Administración de Base de Datos; Documentación de proyectos; Capacitación en el ámbito de la programación a niños con capacidades diferentes."
+        }
+    ],
+    "skills":[
+        {
+            "id":0,
+            "nombre": "HTML",
+            "porcentaje": 70,
+            "color": "#745EF3"
+        },
+        {
+            "id":1,
+            "nombre": "CSS",
+            "porcentaje": 20,
+            "color": "#745EF3"
+        },
+        {
+            "id":2,
+            "nombre": "MySQL",
+            "porcentaje": 10,
+            "color": "#745EF3"
+        },
+        {
+            "id":3,
+            "nombre": "C#",
+            "porcentaje": 11,
+            "color": "#745EF3"
+        },
+        {
+            "id":4,
+            "nombre": "Arduino",
+            "porcentaje": 80,
+            "color": "#745EF3"
+        }
+
+    ],
+    "proyectos":[
+        {
+            "id":0,
+            "nombre":"Mi portfolio web",
+            "icono": "/assets/imagenes/portfoliocolor.png"
+        },
+        {
+            "id":1,
+            "nombre":"Sistema Farmacia",
+            "icono": "/assets/imagenes/farmacia.png"
+        },
+        {
+            "id":2,
+            "nombre":"Sistema BYS",
+            "icono": "/assets/imagenes/casa.png"
+        },
+        {
+            "id":3,
+            "nombre":"Robot Arduino",
+            "icono": "/assets/imagenes/robotnegro.png"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-md navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="Index.html"><img [src]="iconNav.icono" alt="logo" class="logo"></a>                          
+        <ul class="list-group list-group-horizontal ">               
+        <li class="list-group-item" *ngFor = "let nav of dataNav"><a class="link" [href]="nav.url" target="_blank" title="linkedn"><i [class]="nav.icon"></i></a></li>
+        
+        <app-login></app-login>    
+        <app-logout></app-logout>              
+        </ul>            
+    </div>
+</nav>
+<!-- FIN NAVBAR -->

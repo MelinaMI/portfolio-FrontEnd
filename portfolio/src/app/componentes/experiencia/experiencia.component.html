@@ -1,0 +1,26 @@
+    <!-- INICIO EXPERIENCIA -->
+    <section class="experiencia" id="experiencia">
+        <div class="container w-100">
+            <div class="row">
+                <div class="col-md-auto">
+                    <h4 class="titulo">Experiencia profesional</h4>
+                        
+                        <div class="row" *ngFor = "let exp of dataExp">
+                            <div class="col-1">
+                                <img class="punto" 
+                                [src]="exp.imgPunto">
+                            </div>
+
+                            <div class="col">
+                                <div class="box1">
+                                    <h5 class="title">{{exp.puesto}}</h5>
+                                    <p class="text">{{exp.lugar}} | {{exp.inicio}} - {{exp.fin}}</p>  
+                                </div> 
+                                <li class="items">{{exp.descripcion}}</li>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN EXPERIENCIA -->

@@ -1,0 +1,45 @@
+
+/* COMIENZO CONTENIDO GENERAL*/
+body{
+    background-color: #02000D;
+}
+html{
+	scroll-behavior: smooth;
+}
+h5{
+	margin-left: 10px;
+	color: #fff;
+}
+.titulo{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #fff;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 30px;
+}
+/*FIN CONTENIDO GENERAL*/
+
+/*INICIO SCROLLBAR*/
+::-webkit-scrollbar-track{
+	border-radius: 5px;
+	background-color:#02000D;
+}
+::-webkit-scrollbar{
+	width: 12px;
+	background-color:#02000D;
+}
+::-webkit-scrollbar-thumb{
+	border-radius: 5px;
+	background: linear-gradient(45deg,#7D55FC, #2B2696);
+}
+/*FIN SCROLLBAR*/
+
+
+
+
+
+
+
+
+
+

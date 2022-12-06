@@ -1,0 +1,22 @@
+<!-- INICIO HARD AND SOFT SKILLS -->
+<section class="skills" id="skills">
+    <div class="container w-100">
+        <div class="row">
+            <div class="col-md-auto">
+                <h4 class="titulo">Hard and soft skills</h4>
+                <div class="skills-bar">
+                    <div class="bar" *ngFor = "let sk of dataSkills">
+                        <div class="info">
+                            <span>{{sk.nombre}}</span>
+                        </div>
+                        
+                        <progress-bar [progress]="sk.porcentaje" [color]="sk.color">
+                        </progress-bar>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- FIN HARD AND SOFT SKILLS -->
+

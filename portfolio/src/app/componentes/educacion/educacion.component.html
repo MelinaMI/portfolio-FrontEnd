@@ -1,0 +1,23 @@
+<!-- INICIO EDUCACIÓN -->
+    <section class="educacion" id="educacion">
+    <div class="container w-100">
+        <div class="row">
+            <div class="col-md-auto">
+                <h4 class="titulo">Educación</h4>
+                <div class="row" *ngFor="let edu of dataEdu">
+                    <div class="col-1">
+                        <img class="logos" 
+                        [src]="edu.logo">
+                    </div>
+                    <div class="col">
+                        <div class="edu">
+                            <h5>{{edu.institucion}}</h5><p>{{edu.titulo}} | {{edu.inicio}} - {{edu.fin}}</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>  
+    </div>
+</section>
+<!-- FIN EDUCACIÓN -->
+

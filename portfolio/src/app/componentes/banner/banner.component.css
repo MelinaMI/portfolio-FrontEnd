@@ -1,0 +1,43 @@
+/*COMIENZO BANNER*/
+.banner{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	height: 100vh;	
+	background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 5)),url(src/assets/imagenes/fondo1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+h2.name{
+	font-size: 50px;
+	padding-top: 10px;
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+	animation: morph-effect 7s;
+}
+h3.profesion{
+	font-size: 35px;
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+	animation: morph-effect 7s;
+}
+.name:nth-child(1){
+animation-delay: -4s;
+}
+.profesion:nth-child(2){
+animation-delay: -3s;
+}
+@keyframes morph-effect{
+	0%, 20%, 100%{
+		filter: blur(0px);
+		
+	}
+	40%, 80%{
+		filter: blur(16px);
+		opacity: 0;
+	}
+}
+/*FIN BANNER*/
